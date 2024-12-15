@@ -21,6 +21,7 @@
 .navLink {
     cursor: pointer;
     margin: 1rem;
+    padding-bottom: 0.5rem;
     border-bottom: .1rem solid transparent;
     transition: border-bottom-color .5s ease;
 }
@@ -40,6 +41,6 @@
     display: flex;
     gap: 1rem;
     align-items: center;
-    padding: 1rem;
+    padding: .8rem 1rem;
     border-radius:3rem;
 }
