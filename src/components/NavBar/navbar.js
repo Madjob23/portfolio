@@ -1,6 +1,11 @@
 import React from 'react';
 import "./navbar.css";
 import logo from "../../assets/logo.png";
+/* 
+  react-scroll is a library that allows smooth scrolling 
+  to a particular section of the page when a link is clicked.
+  It had to be installed usig npm
+*/
 import { Link } from "react-scroll";
 import contactImg from "../../assets/contact.png";
 
