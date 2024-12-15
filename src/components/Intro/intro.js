@@ -17,7 +17,7 @@ const Intro = () => {
                 Frontend Web-developer. 
             </span>
             <p className="introPara">
-                I have experience building responsive front-ends of websites which are intuitive and visually calm.
+                I have experience building responsive front-ends of websites which are intuitive<br /> and visually calm.
             </p>
             <Link>
                 <button className="introHireBtn">
