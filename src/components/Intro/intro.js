@@ -9,7 +9,7 @@ const Intro = () => {
     <section id="intro">
 
         <div className="introContent">
-            <span className='introGreeting'>Hello</span>
+            <span className='introGreeting'>Namaste</span>
             <span className="introMainText">
                 I'm <span className="introName">
                     Madhvendra Singh
