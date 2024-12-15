@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="contact" className="navLink">Internships</Link>
       </div>
       <button className="navContactBtn">
-        <img src={contactImg} alt="" className="contactImg" />
+        <img src={contactImg} alt="Contact icon" className="contactImg" />
         <span>Contact me</span>
       </button>
     </nav>
