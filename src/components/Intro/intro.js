@@ -27,7 +27,7 @@ const Intro = () => {
             </Link>
         </div>
 
-        <img src={introImg} alt="My photo" className="introImg" />
+        <img src={introImg} alt="Me" className="introImg" />
     
     </section>
   )
