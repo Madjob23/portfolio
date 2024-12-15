@@ -69,3 +69,23 @@
     object-fit: cover; /* since in mobile itll be a bg */
     height: 100vh;
 }
+
+@media screen and (max-width: 840px) {
+    .introImg {
+        right: -10vw;
+    }
+
+    .introGreeting {
+        font-size: 4.5vw;
+    }
+
+    .introMainText {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .introImg {
+        right: -20vw;
+    }
+}
