@@ -21,6 +21,13 @@
 .navLink {
     cursor: pointer;
     margin: 1rem;
+    border-bottom: .1rem solid transparent;
+    transition: border-bottom-color .5s ease;
+}
+
+.navLink:hover {
+    color: yellow;
+    border-bottom-color: yellow;
 }
 
 .contactImg {
