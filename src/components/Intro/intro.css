@@ -7,10 +7,10 @@
     overlap, flexbox will make them shrink
     */
     height: calc(100vh - 5rem);
+    overflow: hidden;
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 0 2rem;
     position: relative;
 }
 
@@ -25,8 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    padding: 1rem;
+    padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -43,20 +42,22 @@
 .introPara {
     font-size: medium;
     font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .introHireBtn {
     display: flex;
     gap: 1rem;
     align-items: center;
-    margin:1rem 0; ;
-    padding: .8rem 1rem;
+    margin:1rem 0;
+    padding: 0.75rem 1.5rem;
     border: none;
-    border-radius:3rem;
+    border-radius: 2rem;
 }
 
 .hireImg {
-    object-fit: contain;
+    object-fit: cover;
+    margin: 0 0.25rem;
     height: 1rem;
     width: 1rem;
 }
@@ -65,7 +66,7 @@
     position: absolute;
     z-index: -1;
     top: -5rem;
-    right: 0;
+    right: -5vw;
     object-fit: cover; /* since in mobile itll be a bg */
     height: 100vh;
 }
@@ -87,5 +88,13 @@
 @media screen and (max-width: 480px) {
     .introImg {
         right: -20vw;
+    }
+
+    .introGreeting {
+        font-size: 2.25vw;
+    }
+
+    .introMainText {
+        font-size: 5vw;
     }
 }
