@@ -8,6 +8,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .aboutTitle {
@@ -55,4 +56,18 @@
 .skillBarText {
     font-size: 1rem;
     font-weight: 200;
+}
+
+@media (max-width: 380px) {
+    .aboutTitle {
+        font-size: 8vw;
+    }
+
+    .skillBarHeader {
+        font-size: 4vw;
+    }
+
+    .skillBarText {
+        font-size: 2vw;
+    }
 }
