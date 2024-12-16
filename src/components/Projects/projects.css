@@ -1,0 +1,48 @@
+#projects {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 75rem;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.projectsTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectsDescription {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 50rem;
+    margin-bottom: 1rem;
+}
+
+.projectImgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.projectImg {
+    object-fit: contain;
+    height: 20rem;
+    width: 19rem;
+}
+
+.projectsBtn {
+    margin:1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
