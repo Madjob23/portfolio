@@ -1,3 +1,4 @@
+import "./components/style.css";
 import Navbar from "./components/NavBar/navbar";
 import Intro from "./components/Intro/intro";
 import About from "./components/About/about";
